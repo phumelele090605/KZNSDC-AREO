@@ -1,0 +1,75 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
+  theme: {
+    extend: {
+      fontFamily: {
+        heading: ['Montserrat', 'sans-serif'],
+        body: ['Open Sans', 'sans-serif'],
+      },
+      colors: {
+        primary: {
+          50: '#E6ECEF',
+          100: '#CCD9DF',
+          200: '#99B3BF',
+          300: '#668D9F',
+          400: '#33677F',
+          500: '#004F72',
+          600: '#004563',
+          700: '#003B5C',
+          800: '#002A42',
+          900: '#001A29',
+        },
+        accent: {
+          50: '#FFFAEB',
+          100: '#FFF3CC',
+          200: '#FFE799',
+          300: '#FFDB66',
+          400: '#FFCE47',
+          500: '#FFC72C',
+          600: '#E6A800',
+          700: '#B38300',
+          800: '#805E00',
+          900: '#4D3800',
+        },
+        sand: {
+          50: '#FEFCF8',
+          100: '#FBF7EC',
+          200: '#F8EFDA',
+          300: '#F4E4BC',
+          400: '#EAD494',
+          500: '#DFC26C',
+          600: '#C9A544',
+          700: '#A3842F',
+          800: '#7A6323',
+          900: '#524217',
+        },
+        success: {
+          50: '#EAF7EE',
+          100: '#CFEEDA',
+          500: '#2E9E5B',
+          600: '#22824A',
+          700: '#1B6539',
+        },
+        warning: {
+          50: '#FFF4E5',
+          100: '#FFE3B8',
+          500: '#F2932D',
+          600: '#D97A16',
+          700: '#B05E0E',
+        },
+        error: {
+          50: '#FCEAEA',
+          100: '#F6CACA',
+          500: '#D64545',
+          600: '#B93131',
+          700: '#932424',
+        },
+        ink: {
+          DEFAULT: '#1A1A1A',
+        },
+      },
+    },
+  },
+  plugins: [],
+};
